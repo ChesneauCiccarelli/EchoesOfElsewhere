@@ -1,5 +1,31 @@
 @import 'functions';
 
+// Colors
+$Timberwolf: #d6ccca;
+$Seashell: #f9f7ec;
+$Powder-Blue: #91afc9;
+$Air-Superiority-Blue: #6f98bf;
+$Silver-Lake-Blue: #5b85b8;
+$Lapis-Lazuli: #335e9d;
+$Ultra-Violet: #5e6891;
+$English-Violet: #404972;
+$Slate-Gray: #787a9e;
+$Dark-Purple: #211d34;
+
+// Fonts
+$font-text: 'Golos Text', sans-serif;
+$font-display: 'Major Mono Display', monospace;
+
+// Font Sizes
+$font-size-smaller: rem(10);
+$font-size-small: rem(13);
+$font-size-regular: rem(16);
+$font-size-medium: rem(20);
+$font-size-big: rem(25);
+$font-size-bigger: rem(31);
+$font-size-giant: rem(39);
+$font-size-gianter: rem(49);
+
 // Media Queries
 $mobile-small: 320px;
 $mobile: 480px;

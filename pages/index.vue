@@ -1,9 +1,7 @@
 <script setup></script>
 
 <template>
-  <div>
-    <h1>Hello World</h1>
-  </div>
+  <div>hello world</div>
 </template>
 
 <style lang="scss" scoped></style>
