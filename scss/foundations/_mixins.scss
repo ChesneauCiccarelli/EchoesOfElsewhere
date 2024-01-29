@@ -1,0 +1,62 @@
+// Mixin ONLY for small screens
+@mixin mobile-only {
+  @media screen and (max-width: $mobile-small) {
+    @content;
+  }
+}
+
+// Mixin for larger mobile phones - 480 px
+@mixin mobile {
+  @media screen and (min-width: ($mobile)) {
+    @content;
+  }
+}
+
+// Mixin for small tablet screens - 600 px
+@mixin tablet-small {
+  @media screen and (min-width: ($tablet-small)) {
+    @content;
+  }
+}
+
+// Mixin for tablet screens - 768 px
+@mixin tablet {
+  @media screen and (min-width: ($tablet)) {
+    @content;
+  }
+}
+
+// Mixin for laptop screens - 1024 px
+@mixin laptop {
+  @media screen and (min-width: ($laptop)) {
+    @content;
+  }
+}
+
+// Mixin for small desktop screens - 1280 px
+@mixin desktop-small {
+  @media screen and (min-width: ($desktop-small)) {
+    @content;
+  }
+}
+
+// Mixin for desktop screens - 1440 px
+@mixin desktop {
+  @media screen and (min-width: ($desktop)) {
+    @content;
+  }
+}
+
+// Mixin for small screens - 1680 px
+@mixin screen-small {
+  @media screen and (min-width: ($screen-small)) {
+    @content;
+  }
+}
+
+// Mixin for screens - 1920 px
+@mixin screen {
+  @media screen and (min-width: ($screen)) {
+    @content;
+  }
+}
