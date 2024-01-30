@@ -1,3 +1,31 @@
+<script setup>
+import { onMounted } from 'vue';
+import anime from 'animejs';
+
+onMounted(() => {
+  const timeline = anime.timeline({
+    easing: 'easeOutExpo',
+    duration: 750,
+  });
+  timeline.add(
+    {
+      targets: '.Header__line',
+      opacity: [0, 1],
+      duration: 500,
+    },
+    '+=500',
+  );
+  timeline.add(
+    {
+      targets: '.Header__icon',
+      opacity: [0, 1],
+      duration: 1000,
+    },
+    '+=500',
+  );
+});
+</script>
+
 <template>
   <div>
     <a href="#" class="Header">
@@ -26,11 +54,13 @@
     height: rem(1);
     background-color: $Dark-Purple;
     border-radius: 50%;
+    opacity: 0;
   }
 
   &__icon {
     width: rem(50);
     height: rem(50);
+    opacity: 0;
   }
 }
 
