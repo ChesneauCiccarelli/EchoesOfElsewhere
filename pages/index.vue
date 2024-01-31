@@ -1,7 +1,9 @@
 <script setup></script>
 
 <template>
-  <div>hello world</div>
+  <section>
+    <MyHero />
+  </section>
 </template>
 
 <style lang="scss" scoped></style>

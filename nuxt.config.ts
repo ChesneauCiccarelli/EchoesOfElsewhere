@@ -27,8 +27,8 @@ export default defineNuxtConfig({
   },
   googleFonts: {
     families: {
-      'Golos+Text': true,
-      'Major+Mono+Display': true,
+      'Golos+Text': [400, 500, 600, 700, 800, 900],
+      'Major+Mono+Display': [400],
     },
   },
 });
