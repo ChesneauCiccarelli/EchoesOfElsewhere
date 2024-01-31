@@ -5,7 +5,6 @@ import anime from 'animejs';
 onMounted(() => {
   const timeline = anime.timeline({
     easing: 'easeOutExpo',
-    duration: 750,
   });
   timeline.add(
     {
@@ -13,16 +12,13 @@ onMounted(() => {
       opacity: [0, 1],
       duration: 500,
     },
-    '+=500',
+    '+=1000',
   );
-  timeline.add(
-    {
-      targets: '.Header__icon',
-      opacity: [0, 1],
-      duration: 1000,
-    },
-    '+=500',
-  );
+  timeline.add({
+    targets: '.Header__icon',
+    opacity: [0, 1],
+    duration: 1000,
+  });
 });
 </script>
 
