@@ -39,23 +39,23 @@ onMounted(() => {
 
 <style lang="scss" scoped>
 .Header {
-  display: flex;
   align-items: center;
-  justify-content: space-around;
+  display: flex;
   gap: rem(25);
+  justify-content: space-around;
   margin-top: rem(50);
 
-  &__line {
-    flex: 1;
-    height: rem(1);
-    background-color: $Dark-Purple;
-    border-radius: 50%;
+  &__icon {
+    height: rem(50);
     opacity: 0;
+    width: rem(50);
   }
 
-  &__icon {
-    width: rem(50);
-    height: rem(50);
+  &__line {
+    background-color: $Dark-Purple;
+    border-radius: 50%;
+    flex: 1;
+    height: rem(1);
     opacity: 0;
   }
 }
