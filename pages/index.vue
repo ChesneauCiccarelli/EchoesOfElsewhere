@@ -43,6 +43,47 @@
       imgSrc="/img/SymphoniesOfTheVoid.png"
     />
   </section>
+
+  <AnimatedGradient />
+  <section class="about">
+    <p class="about__text">
+      Beneath the veil of creation, where art and algorithm converge, lies the
+      heart of our odyssey. Unravel the stories behind the symphony of zeros and
+      ones, and embark on a journey through the minds that meld the realms of
+      reality and reverie.
+      <strong class="about__text--strong"
+        >Learn more about the project
+        <NuxtLink class="about__text--link" to="/about">right here</NuxtLink>.
+      </strong>
+    </p>
+    <div class="about__link">
+      <NuxtLink class="about__link--item" to="/about">
+        Unveil the odyssey
+      </NuxtLink>
+      <arrowSVG class="about__link--arrow" />
+    </div>
+  </section>
 </template>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.about {
+  padding: rem(300) rem(20) rem(200) rem(20);
+
+  &__link {
+    display: flex;
+    gap: rem(20);
+    margin-top: rem(20);
+
+    &--item {
+      border: 1px solid $Dark-Purple;
+      border-radius: 20px;
+      color: $Dark-Purple;
+      padding: rem(10) rem(20);
+    }
+
+    &--arrow {
+      width: rem(25);
+    }
+  }
+}
+</style>
