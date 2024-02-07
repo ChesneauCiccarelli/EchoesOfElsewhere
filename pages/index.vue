@@ -17,6 +17,10 @@
   </section>
 
   <section>
+    <MyPoems />
+  </section>
+
+  <section>
     <MySection
       title="Reflections of the imagination"
       separator="The canvas of digital dreams unfolds"
