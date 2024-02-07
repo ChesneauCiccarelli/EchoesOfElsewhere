@@ -48,6 +48,10 @@
     />
   </section>
 
+  <section>
+    <MyAudio />
+  </section>
+
   <AnimatedGradient />
   <section class="about">
     <p class="about__text">
