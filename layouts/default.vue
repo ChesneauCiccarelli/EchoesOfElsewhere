@@ -9,5 +9,7 @@
     <NuxtPage />
   </main>
 
-  <footer></footer>
+  <footer>
+    <MyFooter />
+  </footer>
 </template>
