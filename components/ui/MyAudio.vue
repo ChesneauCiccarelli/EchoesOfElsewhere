@@ -1,5 +1,7 @@
 <script setup>
 import { onMounted, ref } from 'vue';
+import playSVG from '../icons/playSVG.vue';
+import stopSVG from '../icons/stopSVG.vue';
 
 const items = ref([
   {
