@@ -1,6 +1,8 @@
 <template>
   <header>
-    <MyHeader />
+    <NuxtLink to="/">
+      <MyHeader />
+    </NuxtLink>
   </header>
 
   <main>
