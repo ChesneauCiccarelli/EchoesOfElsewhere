@@ -33,6 +33,10 @@
   </section>
 
   <section>
+    <MyGallery />
+  </section>
+
+  <section>
     <MySection
       title="Symphonies of the Void"
       separator="The composed concert"
